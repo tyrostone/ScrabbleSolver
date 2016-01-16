@@ -13,7 +13,7 @@ if __name__ == '__main__':
             rack = raw_input("Enter a rack: ")
             main(str(rack))
         except ValueError:
-            print("Rack contain between 2 and 15 letters")
+            print("No words found given the specified rack")
         except KeyboardInterrupt:
             print('\nExiting! Goodbye :)')
             break
